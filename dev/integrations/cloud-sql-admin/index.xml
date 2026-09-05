@@ -81,6 +81,10 @@ browser) for each request.&lt;/li&gt;
  
  
  
+ 
+ 
+ 
+ 
 
 
 
@@ -181,6 +185,11 @@ browser) for each request.&lt;/li&gt;
  &lt;td&gt;Perform a pre-check for a Cloud SQL for PostgreSQL major version upgrade.&lt;/td&gt;
  &lt;/tr&gt;
  
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://mcp-toolbox.dev/dev/integrations/cloud-sql-admin/tools/cloudsqlconnectgce/"&gt;&lt;strong&gt;cloud-sql-connect-gce&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Connect a Cloud SQL instance (PostgreSQL, MySQL, or SQL Server) to a Google Compute Engine VM. The engine is auto-detected from the instance.&lt;/td&gt;
+ &lt;/tr&gt;
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
 
@@ -229,6 +238,12 @@ browser) for each request.&lt;/li&gt;
 					&lt;td style="text-align: center"&gt;boolean&lt;/td&gt;
 					&lt;td style="text-align: center"&gt;false&lt;/td&gt;
 					&lt;td&gt;If true, the source will use client-side OAuth for authorization. Otherwise, it will use Application Default Credentials. Defaults to &lt;code&gt;false&lt;/code&gt;.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;readOnly&lt;/td&gt;
+					&lt;td style="text-align: center"&gt;boolean&lt;/td&gt;
+					&lt;td style="text-align: center"&gt;false&lt;/td&gt;
+					&lt;td&gt;When set to &lt;code&gt;true&lt;/code&gt;, suppresses write-capable admin tools. Default: &lt;code&gt;false&lt;/code&gt;.&lt;/td&gt;
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;</description></item></channel></rss>

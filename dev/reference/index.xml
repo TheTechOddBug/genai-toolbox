@@ -17,6 +17,12 @@
 			&lt;/tr&gt;
 			&lt;tr&gt;
 					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;--disable-ext&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;Specifies MCP extension URIs disabled on this server.&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;/td&gt;
 					&lt;td&gt;&lt;code&gt;--disable-reload&lt;/code&gt;&lt;/td&gt;
 					&lt;td&gt;Disables dynamic reloading config.&lt;/td&gt;
 					&lt;td&gt;&lt;/td&gt;
@@ -73,6 +79,12 @@
 					&lt;td&gt;&lt;/td&gt;
 					&lt;td&gt;&lt;code&gt;--tls-key&lt;/code&gt;&lt;/td&gt;
 					&lt;td&gt;Path to the PEM-encoded TLS private key file.&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;--toolbox-url&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;Specifies the absolute Toolbox URL (e.g., &lt;code&gt;https://my-toolbox.example.com&lt;/code&gt;). Used as the resource field in the MCP PRM file when MCP Auth is enabled. Falls back to &lt;code&gt;TOOLBOX_URL&lt;/code&gt; environment variable.&lt;/td&gt;
 					&lt;td&gt;&lt;/td&gt;
 			&lt;/tr&gt;
 			&lt;tr&gt;
